@@ -10,7 +10,6 @@ declare module 'vue' {
   export interface GlobalComponents {
     Card: typeof import('./src/components/CreateProxies/Card.vue')['default']
     CreateProxies: typeof import('./src/components/CreateProxies/index.vue')['default']
-    CreateProxy: typeof import('./src/components/CreateProxy.vue')['default']
     Edit: typeof import('./src/components/ManageProxies/Edit.vue')['default']
     FrpcManager: typeof import('./src/components/FrpcManager.vue')['default']
     GetConf: typeof import('./src/components/ManageProxies/GetConf.vue')['default']
@@ -28,7 +27,6 @@ declare module 'vue' {
     NCode: typeof import('naive-ui')['NCode']
     NCollapse: typeof import('naive-ui')['NCollapse']
     NCollapseItem: typeof import('naive-ui')['NCollapseItem']
-    NConfigProvider: typeof import('naive-ui')['NConfigProvider']
     NDescriptions: typeof import('naive-ui')['NDescriptions']
     NDescriptionsItem: typeof import('naive-ui')['NDescriptionsItem']
     NDropdown: typeof import('naive-ui')['NDropdown']
